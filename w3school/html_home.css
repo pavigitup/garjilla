@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+}
+.nav2 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav2 ul li {
+  float: left;
+}
+
+.nav2 ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav2 ul li a:hover {
+  background-color: #111;
+}
+.content{
+  width: 100%;
+  display: inline-flex;
+}
+.menu{
+  width: 15%;
+}
+.html_nav{
+
+  overflow-y: scroll;
+  background-color: gainsboro;
+  list-style-type: none;
+}
+.html_nav a {
+  color: black;
+  padding: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+}
+.html_nav a:hover{
+  background-color:rgb(186, 186, 186);
+}
+h1, h3{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.btn{
+  background-color: rgb(4,170,109);
+  padding: 2px 20px;
+  color: white;
+  border-radius: 5px;
+  float: left;
+  font-size: 20px;
+}
+.pre_nxt ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nxt{
+  float:right;
+}
+.center{
+  width: 75%;
+}
+.para1{
+   background-color:rgb(217,238,225) ;
+   padding: 20px;
+   font-size: 18px;
+   line-height: 40px;
+   padding-left: 40px;
+}
+.watch{
+  background-color: #333;
+}
+.watch::before{
+  content: 'NEW';
+  position: absolute;
+  transform: rotate(-30deg);
+  top: 530px;
+  left: 180px;
+  background-color: rgb(255,244,163);
+  border-radius: 50px;
+  color: black;
+  font-size:15px;
+  padding: 0px 15px;
+  font-weight: bold;
+}
+.watch:hover{
+  background-color: #111;
+}
+.hr{
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.example{
+  background-color: rgb(231, 233, 235);
+  padding: 20px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 20px;
+}
+.try{
+  background-color: rgb(255,255,255);
+  padding: 50px;
+  border: 5px solid rgb(4,170,109);
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  height: 30vh;
+  padding-left: 50px;
+}
+.add{
+  width: 10%;
+}
+.btn2{
+  background-color: rgb(231, 233, 235);
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn2:hover{
+  background-color: rgb(4,170,109);
+  color: white;
+}
+.exercise{
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 20px;
+  padding-bottom: 0;
+
+}
+.answer{
+  background-color: rgb(255,255,255);
+  padding: 50px;
+  border: none;
+  height: 60vh;
+}
