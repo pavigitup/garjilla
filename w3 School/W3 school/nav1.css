@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    display: fixed;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+    background-color: white;
+   
+}
+li{
+   margin: 30px 15px  15px;
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+
+}
+.img1{
+    height: 50px;
+    width: 50px;
+    margin: 20px 40px;
+}
