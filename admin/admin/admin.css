@@ -1,0 +1,1257 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.bg1{
+ 
+  background-image: url(bg2-1.png);
+  width: 100%;
+  height: 60vh;
+
+ 
+}
+.img-admsn{
+  height: 400px;
+ float: right;
+ position: relative;
+ right: 120px;
+
+
+}
+.bgcnt{
+  /* background-image: url(bg3.avif); */
+  background-size: cover;
+  display: flex;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  padding: 50px;
+  background-size: cover;
+  /* padding-top: 100px; */
+}
+
+.card{
+display: flex;
+flex-direction: row;
+justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  
+
+}
+
+.card1{
+width: 150px;
+height: 60px;
+border: 2px solid ;
+font-family: 'Cinzel', serif;
+font-size: 20px;
+cursor: pointer;
+margin-right: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+z-index: 0;
+transition: 1s;
+background-color: chartreuse;
+border-radius: 10px;
+}
+
+.card2{
+  width: 150px;
+  height: 60px;
+border: 2px solid ;
+font-family: 'Cinzel', serif;
+font-size: 20px;
+cursor: pointer;
+margin-right: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+z-index: 0;
+transition: 1s;
+background-color:   aquamarine;
+
+border-radius: 10px;
+}
+.card3{
+  width: 150px;
+  height: 60px;
+border: 2px solid ;
+font-family: 'Cinzel', serif;
+font-size: 20px;
+cursor: pointer;
+margin-right: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+z-index: 0;
+transition: 1s;
+background-color:   lightgrey;
+
+border-radius: 10px;
+}
+.card4{
+  width: 150px;
+  height: 60px;
+border: 2px solid ;
+font-family: 'Cinzel', serif;
+font-size: 20px;
+cursor: pointer;
+margin-right: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+z-index: 0;
+transition: 1s;
+background-color:  khaki;
+
+border-radius: 10px;
+}
+.card5{
+  width: 150px;
+  height: 60px;
+border: 2px solid ;
+font-family: 'Cinzel', serif;
+font-size: 20px;
+cursor: pointer;
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+z-index: 0;
+transition: 1s;
+background-color: hotpink;
+
+border-radius: 10px;
+}
+.txt1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  position: relative;
+  color: black;
+  
+}
+.txt2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  position: relative;
+ color: black;
+  
+}
+.txt3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  position: relative;
+  
+  color: black;
+  
+}
+.txt4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  position: relative;
+  color: black;
+  
+  
+}
+.txt5{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  position: relative;
+
+}
+.img {
+ height: 30px;
+ width: 30px;
+ 
+}
+.img-ug{
+  background-color: #54b3f3;
+}
+
+
+.card1::before, .card1::after {
+  position: absolute;
+  background-color:white;
+  z-index: -1;
+  transition: 0.5s;
+  content: '';
+}
+
+.card1::before {
+ 
+  width: 130px;
+  height: 50px;
+}
+
+.card1::after {
+  width: 150px;
+  height: 30px;
+}
+
+
+
+.card1:hover::before {
+  width: 0px;
+  background:#fff;
+}
+
+.card1:hover::after {
+  height: 0px;
+  background: #fff;
+}
+
+.card1:hover {
+  background:chartreuse;
+}
+.card2::before, .card2::after {
+  position: absolute;
+  background-color:white;
+  z-index: -1;
+  transition: 0.5s;
+  content: '';
+}
+
+.card2::before {
+  height: 50px;
+  width: 130px;
+}
+
+.card2::after {
+  width: 150px;
+  height: 30px;
+}
+
+
+
+.card2:hover::before {
+  width: 0px;
+  background:#fff;
+}
+
+.card2:hover::after {
+  height: 0px;
+  background: #fff;
+}
+
+.card2:hover {
+  background:aquamarine;
+}
+
+.card3::before, .card3::after {
+position: absolute;
+background-color:white;
+z-index: -1;
+transition: 0.5s;
+content: '';
+}
+
+.card3::before {
+height: 50px;
+width: 130px;
+}
+
+.card3::after {
+width: 150px;
+height: 30px;
+}
+
+
+
+.card3:hover::before {
+width: 0px;
+background:#fff;
+}
+
+.card3:hover::after {
+height: 0px;
+background: #fff;
+}
+
+.card3:hover {
+background:lightgray;
+}
+.card4::before, .card4::after {
+position: absolute;
+background-color:white;
+z-index: -1;
+transition: 0.5s;
+content: '';
+}
+
+.card4::before {
+height: 50px;
+width: 130px;
+}
+
+.card4::after {
+width: 150px;
+height: 30px;
+}
+
+
+
+.card4:hover::before {
+width: 0px;
+background:#fff;
+}
+
+.card4:hover::after {
+height: 0px;
+background: #fff;
+}
+
+.card4:hover {
+background:khaki;
+}
+
+.card5::before, .card5::after {
+position: absolute;
+background-color:white;
+z-index: -1;
+transition: 0.5s;
+content: '';
+}
+
+.card5::before {
+height: 50px;
+width: 130px;
+}
+
+.card5::after {
+width: 150px;
+height: 30px;
+}
+
+
+
+.card5:hover::before {
+width: 0px;
+background:#fff;
+}
+
+.card5:hover::after {
+height: 0px;
+background: #fff;
+}
+
+.card5:hover {
+background:hotpink;
+}
+
+@media (max-width:1130px){
+ 
+  .card1{
+    width: 130px;
+    height: 50px;
+  }
+  .txt1{
+    font-size: 15px;
+  }
+
+
+.card1::before {
+  width: 110px;
+  height: 40px;
+}
+
+.card1::after {
+  width: 130px;
+  height: 25px;
+}
+.card1{
+  width: 130px;
+  height: 50px;
+}
+.txt2{
+  font-size: 15px;
+}
+
+
+
+.card2::before {
+width: 110px;
+height: 40px;
+}
+
+.card2::after {
+width: 130px;
+height: 25px;
+}
+.card2{
+  width: 130px;
+  height: 50px;
+}
+.txt3{
+  font-size: 15px;
+}
+
+
+.card3::before {
+width: 110px;
+height: 40px;
+}
+
+.card3::after {
+width: 130px;
+height: 25px;
+}
+.card3{
+  width: 130px;
+  height: 50px;
+}
+.txt4{
+  font-size: 15px;
+}
+
+.card4::before {
+width: 110px;
+height: 40px;
+}
+
+.card4::after {
+width: 130px;
+height: 25px;
+}
+.card4{
+  width: 130px;
+  height: 50px;
+}
+.txt5{
+  font-size: 15px;
+}
+
+.card5{
+  width: 130px;
+  height: 50px;
+}
+.card5::before {
+width: 110px;
+height: 40px;
+}
+
+.card5::after {
+width: 130px;
+height: 25px;
+}
+
+
+
+.card5:hover::before {
+  width: 0px;
+  background:#fff;
+}
+
+.card5:hover::after {
+  height: 0px;
+  background: #fff;
+}
+
+
+}
+
+@media (max-width:960px){
+ 
+  .card1{
+    width: 120px;
+    height: 40px;
+  }
+  .txt1{
+    font-size: 15px;
+  }
+
+
+.card1::before {
+  width: 105px;
+  height: 30px;
+}
+
+.card1::after {
+  width: 120px;
+  height: 20px;
+}
+.card2{
+  width: 70px;
+  height: 40px;
+}
+.txt2{
+  font-size: 15px;
+}
+.card2{
+  width: 120px;
+  height: 40px;
+}
+
+.card2::before {
+width: 105px;
+height: 30px;
+}
+
+.card2::after {
+width: 120px;
+height: 20px;
+}
+.card3{
+  width: 120px;
+  height: 40px;
+}
+.txt3{
+  font-size: 15px;
+}
+
+
+.card3::before {
+width: 105px;
+height: 30px;
+}
+
+.card3::after {
+width: 120px;
+height: 20px;
+}.card4{
+  width: 120px;
+  height: 40px;
+}
+.txt4{
+  font-size: 15px;
+}
+
+
+.card4::before {
+width: 105px;
+height: 30px;
+}
+
+.card4::after {
+width: 120px;
+height: 20px;
+}.card5{
+  width: 120px;
+  height: 40px;
+}
+.txt5{
+  font-size: 15px;
+}
+
+
+.card5::before {
+width: 105px;
+height: 30px;
+}
+
+.card5::after {
+width: 120px;
+height: 20px;
+}
+}
+
+@media (max-width:900px){
+
+  .card1{
+    width: 100px;
+    height: 40px;
+  }
+  .txt1{
+    font-size: 15px;
+  }
+
+
+.card1::before {
+  width: 85px;
+  height: 30px;
+}
+
+.card1::after {
+  width: 100px;
+  height: 20px;
+}
+.card2{
+  width: 100px;
+  height: 40px;
+}
+.txt2{
+  font-size: 15px;
+}
+
+
+.card2::before {
+width: 85px;
+height: 30px;
+}
+
+.card2::after {
+width: 100px;
+height: 20px;
+}
+.card3{
+  width: 100px;
+  height: 40px;
+}
+.txt3{
+  font-size: 15px;
+}
+
+
+.card3::before {
+width: 85px;
+height: 30px;
+}
+
+.card3::after {
+width: 100px;
+height: 20px;
+}
+.card4{
+  width: 100px;
+  height: 40px;
+}
+.txt4{
+  font-size: 15px;
+}
+
+
+.card4::before {
+width: 85px;
+height: 30px;
+}
+
+.card4::after {
+width: 100px;
+height: 20px;
+}
+.card5{
+  width: 100px;
+  height: 40px;
+}
+.txt5{
+  font-size: 15px;
+}
+
+
+.card5::before {
+width: 85px;
+height: 30px;
+}
+
+.card5::after {
+width: 100px;
+height: 20px;
+}
+}
+
+
+
+@media (max-width:810px){
+
+  .card1{
+    width: 90px;
+    height: 40px;
+  }
+  .txt1{
+    font-size: 15px;
+  }
+
+
+.card1::before {
+  width: 75px;
+  height: 30px;
+}
+
+.card1::after {
+  width: 90px;
+  height: 22px;
+}
+.card2{
+  width: 90px;
+  height: 40px;
+}
+.txt2{
+  font-size: 15px;
+}
+
+
+.card2::before {
+width: 75px;
+height: 30px;
+}
+
+.card2::after {
+width: 90px;
+height: 22px;
+}
+.card3{
+  width: 90px;
+  height: 40px;
+}
+.txt3{
+  font-size: 15px;
+}
+
+.card3::before {
+  width: 75px;
+  height: 30px;
+}
+
+.card3::after {
+  width: 90px;
+  height: 22px;
+}
+.card4{
+  width: 90px;
+  height: 40px;
+}
+.txt4{
+  font-size: 15px;
+}
+
+
+.card4::before {
+  width: 75px;
+  height: 30px;
+}
+
+.card4::after {
+  width: 90px;
+  height: 22px;
+}
+.card5{
+  width: 90px;
+  height: 40px;
+}
+.txt5{
+  font-size: 15px;
+}
+
+
+.card5::before {
+  width: 75px;
+  height: 30px;
+}
+
+.card5::after {
+  width: 90px;
+  height: 22px;
+}
+}
+
+@media (max-width:750px){
+ 
+  .card1{
+    width: 70px;
+    height: 30px;
+  }
+  .txt1{
+    font-size: 10px;
+  }
+
+
+.card1::before {
+  width: 60px;
+  height: 22px;
+}
+
+.card1::after {
+  width: 70px;
+  height: 15px;
+}
+.card2{
+  width: 70px;
+  height: 30px;
+}
+.txt2{
+  font-size: 10px;
+}
+
+.card2::before {
+  width: 60px;
+  height: 22px;
+}
+
+.card2::after {
+  width: 70px;
+  height: 15px;
+}
+.card3{
+  width: 70px;
+  height: 30px;
+}
+.txt3{
+  font-size: 10px;
+}
+
+.card3::before {
+  width: 60px;
+  height: 22px;
+}
+
+.card3::after {
+  width: 70px;
+  height: 15px;
+}
+.card4{
+  width: 70px;
+  height: 30px;
+}
+.txt4{
+  font-size: 10px;
+}
+
+
+.card4::before {
+  width: 60px;
+  height: 22px;
+}
+
+.card4::after {
+  width: 70px;
+  height: 15px;
+}
+.card5{
+  width: 70px;
+  height: 30px;
+}
+.txt5{
+  font-size: 10px;
+}
+
+
+.card5::before {
+  width: 60px;
+  height: 22px;
+}
+
+.card5::after {
+  width: 70px;
+  height: 15px;
+}
+.img {
+  height: 20px;
+  width: 20px;
+  
+ }
+}
+@media (max-width:660px){
+  .card{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .card1{
+    width: 220px;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+  .txt1{
+    font-size: 15px;
+  }
+
+
+.card1::before {
+  width: 220px;
+  height: 25px;
+}
+
+.card1::after {
+  width: 200px;
+  height: 40px;
+}
+
+.card2{
+  width: 220px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.txt2{
+  font-size: 15px;
+}
+
+
+.card2::before {
+width: 220px;
+height: 25px;
+}
+
+.card2::after {
+width: 200px;
+height: 40px;
+}
+
+
+.card3{
+  width: 220px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.txt3{
+  font-size: 15px;
+}
+
+
+.card3::before {
+width: 220px;
+height: 25px;
+}
+
+.card3::after {
+width: 200px;
+height: 40px;
+}
+
+.card4{
+  width: 220px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.txt4{
+  font-size: 15px;
+}
+
+
+.card4::before {
+width: 220px;
+height: 25px;
+}
+
+.card4::after {
+width: 200px;
+height: 40px;
+}
+
+.card5{
+  width: 220px;
+  height: 50px;
+  position: relative;
+  right: 25px;
+ 
+}
+.txt5{
+  font-size: 15px;
+}
+
+
+.card5::before {
+width: 220px;
+height: 25px;
+}
+
+.card5::after {
+width: 200px;
+height: 40px;
+}
+}
+.ag-format-container {
+  width: 1142px;
+  margin: 0px;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0px;
+}
+
+.numberPlate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card1-a{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background: url("wave\ \(1\).png");
+      background-color: #f8b23ab8;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 800px;
+      padding-bottom: 10px;
+      font-family: "roboto";
+      font-weight: 700;
+      border-radius: 20px;
+      background-size: 100%;
+
+
+   
+ 
+}
+
+.card2-a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: url("wave\ \(1\).png");
+  background-color: #f8b23ab8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  padding-bottom: 10px;
+  font-family: "roboto";
+  font-weight: 700;
+  border-radius: 20px;
+  background-size: 100%;
+
+  
+
+}
+
+
+
+.para{
+    font-size: 13px;
+    color: white;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span{
+    color: white;
+    font-size: 30px;
+    
+   
+}
+.sub-card{
+    padding: 30px ;
+    text-align: center;
+
+}
+.row-1{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas: "b b a a";
+  margin-top: 100px;
+  margin-left: 200px;
+
+
+
+}
+
+.svg-PG1{
+  grid-area: a;  
+  overflow: hidden;
+  position: relative;
+  right: 100px;
+  top: 100px;
+
+
+  
+}
+.card-PG1{
+  grid-area: b;
+
+
+  overflow: hidden;
+
+
+
+}
+
+.row-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "m m l l";
+    margin-left: 150px;
+    
+
+}
+.card-PG2{
+  grid-area: l;
+ position: relative;
+ right: 100px;
+
+  overflow: hidden;
+
+
+
+}
+.svg-PG2{
+    grid-area: m;
+    margin-top: 20%;
+   
+  
+    
+}
+.ag-format-container {
+  width: 1142px;
+  margin: 0px;
+}
+.h-1{
+    font-size: 30px;
+    font-family: "roboto";
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+}
+.h-2{
+    font-size: 18px;
+    font-family: "roboto";
+    font-weight: 600;
+    color: rgb(227, 28, 10);
+
+}
+.para-El{
+    font-family: "roboto";
+    font-size: 15px;
+    color: #0e0606;
+}
+.para-span{
+  font-family: "roboto";
+    font-size: 15px;
+    color:rgb(176, 56, 5);
+    font-weight: 600;
+}
+
+
+.ag-courses_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  padding: 50px 0px;
+}
+.ag-courses_item {
+  -ms-flex-preferred-size: calc(53.33333% - 80px);
+  flex-basis: calc(53.33333% - 80px);
+
+  margin: 40px;
+
+  overflow: hidden;
+  box-shadow: 1px 3px 35px 5px #b8b8bc;
+  
+  border-radius: 30px;
+}
+.ag-courses-item_link {
+  display: block;
+  padding: 30px 30px;
+  background-color: #ffffff;
+  text-decoration: none;
+
+
+  position: relative;
+}
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+  text-decoration: none;
+  color: #FFF;
+}
+.ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(15);
+  -ms-transform: scale(15);
+  transform: scale(15);
+}
+.ag-courses-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
+
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date-box {
+  font-size: 18px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #f9b234;
+  
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  
+  border-radius: 50%;
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+
+
+@media only screen and (max-width: 620px){
+  .row-1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-areas: "b"
+    "a";
+    margin-top: 100px;
+
+ 
+}
+}
+
+
+@media only screen and (max-width: 979px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(60% - 30px);
+    flex-basis: calc(60% - 30px);
+  }
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .ag-courses-item_link {
+    padding: 22px 40px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
+ 
+.ul-MBA{
+    list-style-type: circle;
+    
+}
+
+
