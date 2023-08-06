@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.bg-con{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.bg-con::after{
+    content: "";
+    position: absolute;
+    background-color: #22f1d6;
+    height: 100vh;
+    width: 300%;
+    right: 0;
+    animation: zoom .7s ease-in-out forwards;
+    z-index: 1;
+
+}
+@keyframes zoom{
+    100%{
+        height: 100vh;
+        width: 50%;
+        border-top-left-radius: 100%;
+    }
+    
+}
+
+form{
+    height: 300px;
+    width: 300px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-left: 10%;
+    z-index: 2;
+    box-shadow: 2px 2px 10px rgb(238, 236, 236),
+                -2px -2px 10px rgb(238, 236, 236);
+    row-gap: 20px;
+    scale: 0;
+    filter: blur(8px);
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    animation: 
+    dada 1s ease 1s 1 forwards;
+}
+a{
+    color: gray;
+    font-size: 15px;
+}
+@keyframes dada {
+    100%{
+        filter:blur(0px);
+        scale: 1;
+    }
+}
+input{
+    padding: 10px 0px;
+    border-style: none;
+    border-bottom: .4px solid grey;
+    font-size: 18px;
+    color: gray;
+      box-shadow: 2px 2px 10px rgb(253, 251, 251),
+    -2px -2px 10px rgb(253, 251, 251);
+    
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #22f1d6;
+    width: 150px;
+    color: #fff;
+    font-size: 17px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.child{
+
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: 3;
+    height: 50%;
+    width: 30%;
+}
+.child span {
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight: 900;
+    color: #3a8abe;
+    opacity: 0;
+    animation-duration: 2.3s;
+    animation-fill-mode: forwards;
+    filter: blur(4px);
+}
+.child span:nth-child(1) {
+    animation: pavi 1s ease 1s forwards;
+}
+
+.child span:nth-child(2) {
+    animation: pavi 1.2s ease 1.2s forwards;
+}
+
+.child span:nth-child(3) {
+    animation: pavi 1.5s ease 1.3s forwards;
+}
+
+.child span:nth-child(4) {
+    animation: pavi 1.7s ease 1.4s forwards;
+}
+
+.child span:nth-child(5) {
+    animation: pavi 1.9s ease 1.5s forwards;
+}
+
+.child span:nth-child(6) {
+    animation: pavi 2.1s ease 1.6s forwards;
+}
+
+.child span:nth-child(7) {
+    animation: pavi 2.3s ease 1.7s forwards;
+}
+
+@keyframes pavi {
+    100% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
